@@ -1,199 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remina Greenfield</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Remina Greenfield is a New York–based cultural strategist and creative producer. Explore her work in contemporary art, research, writing, and teaching.">
+  <title>Remina Greenfield</title>
+  <style>
+    /* Basic layout for reading this file before it is placed on the site. */
+    @layer defaults {
+      body { margin: 1.5rem; font: 100%/1.55 system-ui, sans-serif; }
+      nav ul { margin: 0; padding: 0; list-style: none; }
+      #mobile { display: none; }
+      main { margin-block: 2rem; }
+      @media (max-width: 42rem) {
+        body > nav:first-of-type { display: none; }
+        #mobile { display: block; }
+      }
+    }
+
+    .profile-copy { min-width: 0; }
+    .profile-copy > .bio,
+    .profile-copy > .profile-links,
+    .profile-copy > section { max-width: 68ch; }
+    .bio p + p { margin-block-start: 1em; }
+    .profile-links { display: flex; flex-wrap: wrap; gap: 0.75em 1.5em; }
+    .profile-copy > section { margin-block-start: 3em; }
+    .profile-copy .list-heading { font: inherit; font-weight: 600; margin: 0 0 1em; }
+    .profile-copy .entry-list { display: block; margin: 0; padding: 0; list-style: none; }
+    .profile-copy .entry-list > li { display: block; margin: 0; padding: 0; }
+    .profile-copy .entry-list > li + li { margin-block-start: 0.85em; }
+    .profile-copy a { overflow-wrap: break-word; }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body id="home">
-    <!-- DESKTOP NAV-->
-    <nav>
-        <ul>
-<!--             <li><a href="/">Remina Greenfield</a></li> -->
-            <li class="em">Remina Greenfield</li>
-            <!-- <li><a href="/">Projects</a></li>
-            <li><a href="/">Research</a></li>
-            <li><a href="/">Teaching</a></li>
-            <li><a href="/">Writing</a></li> -->
-        </ul>
-    </nav>
-    <!-- MOBILE NAV-->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li class="em">Remina Greenfield</li>
+    </ul>
+  </nav>
 
-    <nav id="mobile">
-        <a href="/">Remina Greenfield</a>
-        <!-- <div id="mobile-nav-trigger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <ul>
-            <li><a href="/">Home/About</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Research</a></li>
-            <li><a href="/">Teaching</a></li>
-            <li><a href="/">Writing</a></li>
-        </ul> -->
-    </nav>
-    <!-- MAIN PAGE CONTENT-->
-    <main>
-        <div class="spacer"></div>
-        <div>
-            <p>
-<!--                 <img src="assets/test.png"/> -->
-                I am a New York–based cultural strategist and creative leader working across contemporary art, emerging technologies, and the sciences. 
-                My work is driven by a core question: how can experimental ideas at the edges of art, science, and technology be translated into forms that move public audiences?
-                <br><br>
-                As Studio Director and former Director of Research at <a href="https://www.anickayistudio.biz/" target="_blank">Anicka Yi Studio</a>, I lead research, strategy, and development across a body of work spanning <a href="https://lesoeuvres.pinaultcollection.com/en/artwork/kelp-sculptures" target="__blank">kelp-based sculptures</a> and <a href="https://www.tate.org.uk/whats-on/tate-modern/hyundai-commission-anicka-yi" target="_blank">autonomous floating machines</a> to <a href="https://www.estherschipper.com/exhibitions/1221-a-shimmer-through-the-quantum-foam-anicka-yi/" target="_blank">paintings</a> and <a href="https://www.hellohornet.com/projects/anicka-yi---each-branch-of-coral-holds-up-the-light-of-the-moon" target="_blank">video</a> produced through machine learning. 
-                The studio's projects have been presented internationally at 
-                <a href="https://www.tate.org.uk/whats-on/tate-modern/hyundai-commission-anicka-yi" target="_blank">Tate Modern</a>, the 
-                <a href="https://www.labiennale.org/en/art/2019/partecipants/anicka-yi" target="_blank">Venice Biennale</a>, 
-                <a href="https://www.ted.com/talks/anicka_yi_intelligent_floating_machines_inspired_by_nature" target="_blank">TED</a>,  
-                <a href="https://listart.mit.edu/exhibitions/symbionts-contemporary-artists-biosphere" target="_blank">MIT List Visual Arts Center</a>, 
-                <a href="https://www.youtube.com/watch?v=76fFxR9oIpk" target="_blank">MFA Houston</a>, and 
-                <a href="https://ucca.org.cn/en/exhibition/anicka-yi/" target="_blank">UCCA Beijing</a>, among many other global institutions.
-                Within this context, I co-developed <a href="https://www.metaspore.org/" targe="_blank">Metaspore</a>, the studio's nomadic interdisciplinary research initiative, organizing salons, symposia and publications, as well as a course and corresponding exhibition at Stanford University.
-                Across all projects, I steward seven-figure, multi-stakeholder budgets, build artist-centered operational systems, and develop ethical cross-sector partnerships.
-                <br><br>
-                Through my own curatorial and intellectual practice, I convene artists, scientists, and technologists around urgent questions of nonhuman intelligence, sensory ecology, and biological and technological convergence. 
-                I have developed symposia and exhibitions with partners including 
-                <a href="https://pirellihangarbicocca.org/en/event/symposium-sensory-ecologies/" target="_blank">Pirelli HangarBicocca</a>, 
-                <a href="https://www.youtube.com/playlist?list=PL2XE42k7g84Wfr6-YO5V3Nm1vpjzwmloZ" target="_blank">Stanford University</a>,  
-                <a href="https://www.demofestival.org/showcases/creative-science" target="_blank">NEW INC</a>, and
-                <a href="https://integration.architecture.pratt.edu/articles/decompose-shadowmeta-mar22" target="blank">Pratt</a>.
-                I have also designed original graduate curricula exploring simulation of living systems, soft robotics, and bio-materials, and written critically on topics ranging from machine aesthetics to the politics of decay.
-                <br><br>
-                I hold an <a href="https://www.newschool.edu/parsons/mfa-design-technology/" target="_blank">MFA in Design and Technology</a> from Parsons School of Design, where I have designed and taught graduate and core curriculum courses.
-                A participant in <a href="https://www.newmuseum.org/new-inc/members-alumni/?page=1&year=year-seven" target"_blank">NEW INC’s Year 7 Creative Science Track</a>, I remain an active member of that community.
-                <br><br>
-                My leadership pairs rigorous operational discipline with a conviction that visionary creative work demands equally visionary systems to sustain it.
-                <br><br>
-                <a href="https://drive.google.com/file/d/1fj8oD3O3RpC8ng7HRW1y7x3mGQUVHlrK/view?usp=sharing" target="_blank">C.V.→</a>
-                <br><br>
-                <a href="https://www.linkedin.com/in/reminagreenfield" target="_blank">LinkedIn→</a>
-                <br><br>
-                <br><br>
-                Studio & Research Direction (Select Projects)
-                <br><br>
-                <a href="https://www.new-public.com/anicka-yi">The Ediacaran Swimmers, British Land and Royal London Asset Management, 2025</a>
-                <br><br>
-                <a href="https://ucca.org.cn/en/exhibition/anicka-yi/" target="_blank">There Exists Another Evolution, But In This One, UCCA, Beijing, 2025</a>
-                <br><br>
-                <a href="https://youtu.be/0Fjt8I14xeI?si=RJBfB4h2daUDlWi9" target="_blank">There Exists Another Evolution, But In This One, Leeum Museum of Art, Seoul, 2024</a>
-                <br><br>
-                <a href="https://www.estherschipper.com/exhibitions/1221-a-shimmer-through-the-quantum-foam-anicka-yi/" target="_blank">A Shimmer Through The Quantum Foam, Esther Schipper, Berlin, 2023</a>
-                <br><br>
-                <a href="https://www.pinaultcollection.com/en/boursedecommerce/avant-lorage" target="_blank">Avant l'Orage at Bourse de Commerce, Pinault Collection, 2023</a>
-                <br><br>
-                <a href="https://listart.mit.edu/exhibitions/symbionts-contemporary-artists-biosphere" target="_blank">Symbionts, MIT List Visual Arts Center, Cambridge, 2022</a>
-                <br><br>
-                <a href="https://www.gladstonegallery.com/exhibition/10149/aln-n/installation-views" target="_blank">ÄLñ§ñ, Gladstone 24th St, New York, 2022</a>
-                <br><br>
-                <a href="https://www.ted.com/talks/anicka_yi_intelligent_floating_machines_inspired_by_nature" target="_blank">Anicka Yi: Intelligent floating machines inspired by nature, TED: A New Era, Vancouver, 2022</a>
-                <br><br>
-                <a href="https://pirellihangarbicocca.org/en/exhibition/anicka-yi/" target="_blank">Metaspore, Pirelli HangarBicocca, Milan, 2022</a>
-                <br><br>
-                <a href="https://www.tate.org.uk/whats-on/tate-modern/hyundai-commission-anicka-yi" target="_blank">In Love With The World, Hyundai Commission, Tate Modern, London, 2021</a>
-                <br><br>
-                <a href="https://www.labiennale.org/en/art/2019/partecipants/anicka-yi" target="_blank">May You Live In Interesting Times, Venice Biennale, Venice, 2019</a>
-                <br><br>
-                <a href="https://www.gladstonegallery.com/exhibition/320/we-have-never-been-individual/installation-views" target="_blank">We Have Never Been Individual, Gladstone, Brussels, 2019</a>    
-                <br><br>
-                <br><br>
-                Recent Exhibitions and Curation
-                <br><br>
-                <a href="https://2025.demofestival.org/showcases/creative-science" target="_blank">Frequencies We Can't Yet Name, Creative Science Showcase, DEMO 2025, NEW INC</a>
-                <br><br>
-                <a href="https://youtube.com/playlist?list=PL2XE42k7g84Wfr6-YO5V3Nm1vpjzwmloZ&si=Sr_UXscIHWtyrnMf" target="_blank">Metaspore Symposium 2023: The Networked Sensorium, Stanford University & Four One Nine, 2023</a>
-                <br><br>
-                <a href="https://pirellihangarbicocca.org/en/event/symposium-sensory-ecologies/" target="_blank">Symposium Sensory Ecologies, Pirelli HangarBicocca, Milan, April 2022</a>
-                <br><br>
-                <a href="https://architecture.pratt.edu/articles/decompose-shadowmeta-mar22" target="_blank">Shadow Metabolism, Solo Exhibition, Pratt Institute, Department of Architecture, NY, March 2022</a>
-                <br><br>
-                <!-- <a href="https://decompose.institute/EVENTS" target="_blank"> -->
-                    Guest Lecture Series: Simulated Life, Fluid Machines, and Hypernatural Studio, Design and Technology, Parsons, NY, 2020-2021
-                <!-- </a> -->
-                <br><br>
-                <br><br>
-                Writing and Editing
-                <br><br>
-                <a href="https://drive.google.com/file/d/1FsAlhVLDS1OIhZMfY1dEDyIAmbx5DCDC/view?usp=sharing" target="_blank">There Exists Another Evolution, But In This One, CONG 002, December 2025</a>
-                <br><br>
-                <a href="https://www.las-art.foundation/explore/interspecies-future-a-primer" target="_blank">Anicka Yi: The Sensory Ecology of Intelligence, Interspecies Future: A Primer, LAS Art Foundation, April 2024</a>
-                <br><br>
-                <a href="https://drive.google.com/file/d/19IFtqVMp_fcPD_q4J_4Q5_eebHTvR7hA/view?usp=sharing" target="_blank">Peacock Feathers In The Machine, Antennae, Spring 2024</a>
-                <br><br>
-                <a href="https://pirellihangarbicocca.org/en/product/anicka-yi-metaspore/" target="_blank">Anicka Yi: Metaspore, Catalog, Editor, Pirelli HangarBicocca, Milan, Sept. 2022</a>
-                <br><br>    
-                <a href="https://shop.tate.org.uk/hyundai-commission-2021-anicka-yi/26145.html?cgid=books-view-all" target="_blank">Anicka Yi, Hyundai Commission Catalog, Associate Editor, Tate Modern, London, May 2022</a>
-                <br><br>
-                <a href="https://drive.google.com/file/d/1HU5JImMCTk8IbO4VjqUMn18c7x_K1qLc/view?usp=sharing" target="_blank">The edge of life-as-we-know-it: Aesthetics of decay within artificial life and art, Technoetic Arts 19, June 2021</a>
-                <br><br>
-                <a href="http://www.heichimagazine.org/en/articles/627/soft-rot-sweet-rot-bitter-rot-the-politics-of-decay" target="_blank">Soft Rot, Sweet Rot, Bitter Rot: The Politics of Decay, Heichi Magazine, May 2021</a>
-                <br><br>
-                <a href="https://drive.google.com/file/d/1PDWylxXUHdJ53i1Hz44zgKEFiGNneuW0/view?usp=sharing" target="_blank">As If They Were Thinking: New Aesthetics of ‘Thought’ in Machine Learning, Proceedings of Art Machines 2, City U HK, June 2021</a>
-                <!-- <br><br> -->
-                <!-- <a href="https://decompose.institute/Pei-Ying-Lin-The-Viral-Medium" target="_blank">The Viral Medium: Interview with Pei-ying Lin, Decompose, April 2020</a>
-                <br><br>
-                <a href="https://decompose.institute/Michael-Sedbon-Biologizing-the-Infocene" target="_blank">Biologizing the Infocene: Interview with Michael Sedbon, Decompose, April 2020</a>
-                <br><br>
-                <a href="https://decompose.institute/Tiffany-Jaeyeon-Shin-Fermentation-as-Transmaterial-Alchemy" target="_blank">Fermentation as Transmaterial Alchemy: Interview with TJ Shin, Decompose, March 2020</a>
-                <br><br>
-                <a href="https://decompose.institute/Andrea-Ling-Metabolic-Efficiency-as-Design" target="_blank">Metabolic Efficiency as Design: Interview with Andrea Ling, Decompose, March 2020</a>
-                <br><br>
-                <a href="https://decompose.institute/Jiwei-Zhou-Hypernatural-Manufacture" target="_blank">Hypernatural Manufacture: Interview with Jiwei Zhou, Decompose, March 2020</a> -->
-                <br><br>
-                <a href="https://thenewinquiry.com/militain-us/" target="_blank">Militain Us, The New Inquiry, 56, November 2016</a>
-                <br><br>
-                <a href="https://thenewinquiry.com/virulence-in-the-virtual/" target="_blank">Virulence in the Virtual, The New Inquiry, 54, August 2016</a>
-                <br><br>
-                <a href="https://thenewinquiry.com/unfit-for-consumption/" target="_blank">Unfit For Consumption, The New Inquiry, 48, January 2016</a>
-                <br><br>
-                <br><br>
-                Decompose Institute
-                <br><br>
-                <!-- <a href="https://decompose.institute/" target="_blank">Decompose Institute→</a>
-                <br><br> -->
-                <a href="https://www.instagram.com/decompose.institute/" target="_blank">Decompose Instagram→</a>
-                <br><br>
-                <br><br>
-                Teaching at Parsons School of Design
-                <br><br>
-                Sustainable Systems, Parsons First Year, Core Curriculum, Spring 2022
-                <br><br>
-                Simulated Life, Design and Technology, Original Graduate Course, Spring 2021
-                <br><br>
-                Fluid Machines, Design and Technology, Original Graduate Course, Fall 2020
-                <br><br>
-                Hypernatural Studio, Design and Technology, Original Graduate Course, Spring 2020
-                <br><br>
-                Core Studio: Virtual and Networked Environments, Design and Technology, Spring 2020
-                <br><br>
-                Core Studio: Creative Systems and Methodologies, Design and Technology, Fall 2019
-                <br><br>
-                Core Studio: Virtual and Networked Environments, Design and Technology, Spring 2019
-                <br><br>
-                Code 1: Creative Computation, Design and Technology, Fall 2018
-                <br><br>
-                Teaching Assistant, Immersive Storytelling, University Liberal Arts, Spring 2017
-<!--                 <img src="assets/test.png"/>  -->     
-            </p> 
-            <div class="two-column">
-<!--                 <img src="assets/test.png"/>  -->
-<!--                 <img src="assets/test.png"/>  -->
-            </div>     
-        </div>
-    </main>
-    <!-- FOOTER -->
-    <footer>reminagreenfield@gmail.com</footer>
-    <!-- mold container -->
-    <div id="petri"></div>
-     <!-- JAVASCRIPT FOR MOBILE NAV -->
-     <script src="./nav.js"></script>
-     <!-- P5 LIBRARY -->
-     <script src="./p5.min.js"></script>
-     <!-- MOLD -->
-     <script src="./mold.js"></script>
+  <nav id="mobile" aria-label="Mobile navigation">
+    <a href="/" aria-current="page">Remina Greenfield</a>
+  </nav>
+
+  <main>
+    <div class="spacer" aria-hidden="true"></div>
+    <div class="profile-copy">
+      <h1 class="visually-hidden">Remina Greenfield</h1>
+
+      <div class="bio">
+        <p>
+          I am a New York–based cultural strategist and creative producer. I lead international exhibitions and public commissions and bring artists, scientists, and engineers together to give experimental ideas a public life. A question runs through my work as a producer, curator, and writer: what can people discover through an encounter with an artwork that they could never learn from a description of it?
+        </p>
+
+        <p>
+          As Senior Project Manager at Tomokazu Matsuyama Studio, I lead five project managers delivering exhibitions, public artworks, and collaborations. Previously, over eight years at
+          <a href="https://www.anickayistudio.biz/" target="_blank" rel="noopener noreferrer">Anicka Yi Studio</a>, I advanced from Director of Research to Studio Director. I guided research and production across works ranging from
+          <a href="https://lesoeuvres.pinaultcollection.com/en/artwork/kelp-sculptures" target="_blank" rel="noopener noreferrer">kelp sculptures</a> to
+          <a href="https://www.estherschipper.com/exhibitions/1221-a-shimmer-through-the-quantum-foam-anicka-yi/" target="_blank" rel="noopener noreferrer">paintings</a> and
+          <a href="https://www.hellohornet.com/projects/anicka-yi---each-branch-of-coral-holds-up-the-light-of-the-moon" target="_blank" rel="noopener noreferrer">moving-image works</a> developed through machine learning. I oversaw a seven-figure studio operating budget and production budgets exceeding $3 million.
+        </p>
+
+        <p>
+          For <a href="https://www.tate.org.uk/whats-on/tate-modern/hyundai-commission-anicka-yi" target="_blank" rel="noopener noreferrer">Yi’s Turbine Hall commission at Tate Modern</a>, I recruited specialists in robotics, software, and indoor positioning and coordinated test flights for a group of autonomous flying sculptures. We used heat signatures so the machines could respond to the crowd while preserving each visitor’s anonymity. I later co-wrote
+          <a href="https://www.ted.com/talks/anicka_yi_intelligent_floating_machines_inspired_by_nature" target="_blank" rel="noopener noreferrer">Yi’s TED talk</a> around a live flight and led the sculptures’ return to public view at the New Museum.
+        </p>
+
+        <p>
+          I co-developed <a href="https://www.metaspore.org/" target="_blank" rel="noopener noreferrer">Metaspore</a>, Yi’s nomadic research initiative, organizing salons, symposia, publications, and a
+          <a href="https://www.youtube.com/playlist?list=PL2XE42k7g84Wfr6-YO5V3Nm1vpjzwmloZ" target="_blank" rel="noopener noreferrer">course and accompanying exhibition at Stanford University</a>. My curatorial collaborations with
+          <a href="https://pirellihangarbicocca.org/en/event/symposium-sensory-ecologies/" target="_blank" rel="noopener noreferrer">Pirelli HangarBicocca</a>,
+          <a href="https://www.demofestival.org/showcases/creative-science" target="_blank" rel="noopener noreferrer">NEW INC</a>, and
+          <a href="https://integration.architecture.pratt.edu/articles/decompose-shadowmeta-mar22" target="_blank" rel="noopener noreferrer">Pratt</a> explore how other organisms sense the world and how those ways of sensing might change our own.
+        </p>
+
+        <p>
+          I studied art and biology at St. Mary’s College of Maryland and earned an
+          <a href="https://www.newschool.edu/parsons/mfa-design-technology/" target="_blank" rel="noopener noreferrer">MFA in Design and Technology at Parsons School of Design</a>, where I have also designed and taught courses. My writing moves between criticism and fiction. In “Quiet Enjoyment,” my short story for <em>Counterfictional Futures</em>, a woman leases her body to a biotechnology company while secretly harboring a microbial colony descended from her mother’s sourdough starter.
+        </p>
+      </div>
+
+      <p class="profile-links">
+        <a href="https://drive.google.com/file/d/1fj8oD3O3RpC8ng7HRW1y7x3mGQUVHlrK/view?usp=sharing" target="_blank" rel="noopener noreferrer">C.V. <span aria-hidden="true">→</span></a>
+        <a href="https://www.linkedin.com/in/reminagreenfield" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">→</span></a>
+      </p>
+
+      <section aria-labelledby="studio-research">
+        <h2 class="list-heading" id="studio-research">Studio &amp; Research Direction (Select Projects)</h2>
+        <ul class="entry-list">
+          <li><a href="https://www.new-public.com/anicka-yi">The Ediacaran Swimmers, British Land and Royal London Asset Management, 2025</a></li>
+          <li><a href="https://ucca.org.cn/en/exhibition/anicka-yi/" target="_blank" rel="noopener noreferrer">There Exists Another Evolution, But In This One, UCCA, Beijing, 2025</a></li>
+          <li><a href="https://youtu.be/0Fjt8I14xeI?si=RJBfB4h2daUDlWi9" target="_blank" rel="noopener noreferrer">There Exists Another Evolution, But In This One, Leeum Museum of Art, Seoul, 2024</a></li>
+          <li><a href="https://www.estherschipper.com/exhibitions/1221-a-shimmer-through-the-quantum-foam-anicka-yi/" target="_blank" rel="noopener noreferrer">A Shimmer Through The Quantum Foam, Esther Schipper, Berlin, 2023</a></li>
+          <li><a href="https://www.pinaultcollection.com/en/boursedecommerce/avant-lorage" target="_blank" rel="noopener noreferrer">Avant l'Orage at Bourse de Commerce, Pinault Collection, 2023</a></li>
+          <li><a href="https://listart.mit.edu/exhibitions/symbionts-contemporary-artists-biosphere" target="_blank" rel="noopener noreferrer">Symbionts, MIT List Visual Arts Center, Cambridge, 2022</a></li>
+          <li><a href="https://www.gladstonegallery.com/exhibition/10149/aln-n/installation-views" target="_blank" rel="noopener noreferrer">ÄLñ§ñ, Gladstone 24th St, New York, 2022</a></li>
+          <li><a href="https://www.ted.com/talks/anicka_yi_intelligent_floating_machines_inspired_by_nature" target="_blank" rel="noopener noreferrer">Anicka Yi: Intelligent floating machines inspired by nature, TED: A New Era, Vancouver, 2022</a></li>
+          <li><a href="https://pirellihangarbicocca.org/en/exhibition/anicka-yi/" target="_blank" rel="noopener noreferrer">Metaspore, Pirelli HangarBicocca, Milan, 2022</a></li>
+          <li><a href="https://www.tate.org.uk/whats-on/tate-modern/hyundai-commission-anicka-yi" target="_blank" rel="noopener noreferrer">In Love With The World, Hyundai Commission, Tate Modern, London, 2021</a></li>
+          <li><a href="https://www.labiennale.org/en/art/2019/partecipants/anicka-yi" target="_blank" rel="noopener noreferrer">May You Live In Interesting Times, Venice Biennale, Venice, 2019</a></li>
+          <li><a href="https://www.gladstonegallery.com/exhibition/320/we-have-never-been-individual/installation-views" target="_blank" rel="noopener noreferrer">We Have Never Been Individual, Gladstone, Brussels, 2019</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="exhibitions-curation">
+        <h2 class="list-heading" id="exhibitions-curation">Recent Exhibitions and Curation</h2>
+        <ul class="entry-list">
+          <li><a href="https://2025.demofestival.org/showcases/creative-science" target="_blank" rel="noopener noreferrer">Frequencies We Can't Yet Name, Creative Science Showcase, DEMO 2025, NEW INC</a></li>
+          <li><a href="https://youtube.com/playlist?list=PL2XE42k7g84Wfr6-YO5V3Nm1vpjzwmloZ&amp;si=Sr_UXscIHWtyrnMf" target="_blank" rel="noopener noreferrer">Metaspore Symposium 2023: The Networked Sensorium, Stanford University &amp; Four One Nine, 2023</a></li>
+          <li><a href="https://pirellihangarbicocca.org/en/event/symposium-sensory-ecologies/" target="_blank" rel="noopener noreferrer">Symposium Sensory Ecologies, Pirelli HangarBicocca, Milan, April 2022</a></li>
+          <li><a href="https://architecture.pratt.edu/articles/decompose-shadowmeta-mar22" target="_blank" rel="noopener noreferrer">Shadow Metabolism, Solo Exhibition, Pratt Institute, Department of Architecture, NY, March 2022</a></li>
+          <!-- Guest lecture series archive: https://decompose.institute/EVENTS -->
+          <li>Guest Lecture Series: Simulated Life, Fluid Machines, and Hypernatural Studio, Design and Technology, Parsons, NY, 2020-2021</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="writing-editing">
+        <h2 class="list-heading" id="writing-editing">Writing and Editing</h2>
+        <ul class="entry-list">
+          <li>“Quiet Enjoyment,” <em>Counterfictional Futures</em>, Office of Applied Strategy, 2026</li>
+          <li><a href="https://drive.google.com/file/d/1FsAlhVLDS1OIhZMfY1dEDyIAmbx5DCDC/view?usp=sharing" target="_blank" rel="noopener noreferrer">There Exists Another Evolution, But In This One, CONG 002, December 2025</a></li>
+          <li><a href="https://www.las-art.foundation/explore/interspecies-future-a-primer" target="_blank" rel="noopener noreferrer">Anicka Yi: The Sensory Ecology of Intelligence, Interspecies Future: A Primer, LAS Art Foundation, April 2024</a></li>
+          <li><a href="https://drive.google.com/file/d/19IFtqVMp_fcPD_q4J_4Q5_eebHTvR7hA/view?usp=sharing" target="_blank" rel="noopener noreferrer">Peacock Feathers In The Machine, Antennae, Spring 2024</a></li>
+          <li><a href="https://pirellihangarbicocca.org/en/product/anicka-yi-metaspore/" target="_blank" rel="noopener noreferrer">Anicka Yi: Metaspore, Catalog, Editor, Pirelli HangarBicocca, Milan, Sept. 2022</a></li>
+          <li><a href="https://shop.tate.org.uk/hyundai-commission-2021-anicka-yi/26145.html?cgid=books-view-all" target="_blank" rel="noopener noreferrer">Anicka Yi, Hyundai Commission Catalog, Associate Editor, Tate Modern, London, May 2022</a></li>
+          <li><a href="https://drive.google.com/file/d/1HU5JImMCTk8IbO4VjqUMn18c7x_K1qLc/view?usp=sharing" target="_blank" rel="noopener noreferrer">The edge of life-as-we-know-it: Aesthetics of decay within artificial life and art, Technoetic Arts 19, June 2021</a></li>
+          <li><a href="http://www.heichimagazine.org/en/articles/627/soft-rot-sweet-rot-bitter-rot-the-politics-of-decay" target="_blank" rel="noopener noreferrer">Soft Rot, Sweet Rot, Bitter Rot: The Politics of Decay, Heichi Magazine, May 2021</a></li>
+          <li><a href="https://drive.google.com/file/d/1PDWylxXUHdJ53i1Hz44zgKEFiGNneuW0/view?usp=sharing" target="_blank" rel="noopener noreferrer">As If They Were Thinking: New Aesthetics of ‘Thought’ in Machine Learning, Proceedings of Art Machines 2, City U HK, June 2021</a></li>
+          <!--
+            <li><a href="https://decompose.institute/Pei-Ying-Lin-The-Viral-Medium" target="_blank" rel="noopener noreferrer">The Viral Medium: Interview with Pei-ying Lin, Decompose, April 2020</a></li>
+            <li><a href="https://decompose.institute/Michael-Sedbon-Biologizing-the-Infocene" target="_blank" rel="noopener noreferrer">Biologizing the Infocene: Interview with Michael Sedbon, Decompose, April 2020</a></li>
+            <li><a href="https://decompose.institute/Tiffany-Jaeyeon-Shin-Fermentation-as-Transmaterial-Alchemy" target="_blank" rel="noopener noreferrer">Fermentation as Transmaterial Alchemy: Interview with TJ Shin, Decompose, March 2020</a></li>
+            <li><a href="https://decompose.institute/Andrea-Ling-Metabolic-Efficiency-as-Design" target="_blank" rel="noopener noreferrer">Metabolic Efficiency as Design: Interview with Andrea Ling, Decompose, March 2020</a></li>
+            <li><a href="https://decompose.institute/Jiwei-Zhou-Hypernatural-Manufacture" target="_blank" rel="noopener noreferrer">Hypernatural Manufacture: Interview with Jiwei Zhou, Decompose, March 2020</a></li>
+          -->
+          <li><a href="https://thenewinquiry.com/militain-us/" target="_blank" rel="noopener noreferrer">Militain Us, The New Inquiry, 56, November 2016</a></li>
+          <li><a href="https://thenewinquiry.com/virulence-in-the-virtual/" target="_blank" rel="noopener noreferrer">Virulence in the Virtual, The New Inquiry, 54, August 2016</a></li>
+          <li><a href="https://thenewinquiry.com/unfit-for-consumption/" target="_blank" rel="noopener noreferrer">Unfit For Consumption, The New Inquiry, 48, January 2016</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="decompose-institute">
+        <h2 class="list-heading" id="decompose-institute">Decompose Institute</h2>
+        <ul class="entry-list">
+          <!--
+            <li><a href="https://decompose.institute/" target="_blank" rel="noopener noreferrer">Decompose Institute→</a></li>
+          -->
+          <li><a href="https://www.instagram.com/decompose.institute/" target="_blank" rel="noopener noreferrer">Decompose Instagram→</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="teaching">
+        <h2 class="list-heading" id="teaching">Teaching at Parsons School of Design</h2>
+        <ul class="entry-list">
+          <li>Sustainable Systems, Parsons First Year, Core Curriculum, Spring 2022</li>
+          <li>Simulated Life, Design and Technology, Original Graduate Course, Spring 2021</li>
+          <li>Fluid Machines, Design and Technology, Original Graduate Course, Fall 2020</li>
+          <li>Hypernatural Studio, Design and Technology, Original Graduate Course, Spring 2020</li>
+          <li>Core Studio: Virtual and Networked Environments, Design and Technology, Spring 2020</li>
+          <li>Core Studio: Creative Systems and Methodologies, Design and Technology, Fall 2019</li>
+          <li>Core Studio: Virtual and Networked Environments, Design and Technology, Spring 2019</li>
+          <li>Code 1: Creative Computation, Design and Technology, Fall 2018</li>
+          <li>Teaching Assistant, Immersive Storytelling, University Liberal Arts, Spring 2017</li>
+        </ul>
+      </section>
+
+      <div class="two-column"></div>
+    </div>
+  </main>
+
+  <footer><a href="mailto:reminagreenfield@gmail.com">reminagreenfield@gmail.com</a></footer>
+  <div id="petri" aria-hidden="true"></div>
+
+  <script src="./nav.js"></script>
+  <script src="./p5.min.js"></script>
+  <script src="./mold.js"></script>
 </body>
 </html>
